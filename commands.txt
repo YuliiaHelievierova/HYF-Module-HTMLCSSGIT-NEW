@@ -1,0 +1,8 @@
+1) To make that folder or file hidden, add a dot (.) at the beginning of the name:
+$ mkdir .week1
+$ touch .command
+2) Use the -p option with the mkdir command. The -p option makes sure that parent directories are created as well if necessary:
+$ mkdir -p hack/your/future
+3) When you echo a piece of text, the echo command will automatically add a newline:
+a) $ echo Hack; echo Your; echo Future
+b) $ (echo Hack; echo Your; echo Future)
